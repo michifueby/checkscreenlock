@@ -11,7 +11,7 @@ while [ $COUNTS != "0" ] || [ $SCREENSAVER != "0" ]; do
         echo "🙁 User is away!"
         COUNTS=1
     else 
-        echo "🛠 User is working!"
+        echo "⚙️  User is working!"
         COUNTS=0
     fi
     ps ax|grep [S]creenSaverEngine > /dev/null
